@@ -1,0 +1,10 @@
+# Para todos os arquivos e sub-pastas localizados na pasta vendor/
+vendor/
+
+# Para todos os arquivos e sub-pastas localizados na pasta uploads/
+uploads/
+
+#Para evitar pasta que é criada por algumas IDE's
+.idea/
+
+#END

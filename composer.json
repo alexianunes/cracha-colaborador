@@ -1,0 +1,30 @@
+{
+    "name": "pegasus/colaborador",
+    "description": "Área do Colaborador.",
+    "authors": [
+        {
+            "name": "Alexia",
+            "email": "alexiiianunes@gmail.com"
+        }
+    ],
+    "autoload":{
+		"files": [
+			"Helpers/arrays.php",
+			"Helpers/funcoes.php",
+			"Helpers/url.php"
+		],
+		"classmap": [
+			"Helpers/Classes/"
+		],
+		"psr-4":{
+			"Controllers\\":"Controllers/",
+			"Controllers\\Visualizar\\":"Controllers/Visualizar",
+			"Controllers\\Error\\":"Controllers/Error",
+			"Models\\":"Models/",
+			"Core\\":"Core/"
+		}
+	},
+    "require": {
+        "chillerlan/php-qrcode": "dev-master"
+    }
+}

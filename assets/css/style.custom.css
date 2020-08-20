@@ -1,0 +1,176 @@
+.card-preco{
+    float: left;
+    font-weight: 600;
+    color: #4e73df;
+}
+
+.img-logo{
+    margin-bottom: 2rem;
+}
+
+.custom-upload {
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    padding: 50px 50px;
+    background-size: cover
+}
+
+.custom-upload input {
+    left: -9999px;
+    position: absolute;
+    background-size: cover;
+}
+
+label {
+    margin-left: 1rem;
+    font-weight: 700;
+}
+
+textarea {
+    resize: none;
+}
+
+.ml-upload {
+    margin-left: 7rem!important;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+.btn-icon-split .icon {
+    padding: .375rem 0.25rem;
+}
+
+.spinner-border {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 0.4rem;
+    margin-left: 0.4rem;
+}
+
+.obrigatorio {
+    color: red;
+}
+
+.icon-entrar-chamado {
+    font-size: 23px;
+    margin-left: -11px;
+}
+
+.box-msg {
+    background: #e7e7eca1;
+    padding: 1rem;
+    line-height: 1.6rem;
+    color: #000;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+.box-msg-setor {
+    border: 2px solid #7030a0;
+}
+
+.box-msg-colaborador {
+    border: 2px solid #006ec4;
+}
+
+.text-dt-info-setor {
+    font-style: italic;
+    color: #7030a0;
+}
+
+.text-dt-info-colaborador{
+    font-style: italic;
+    color: #006ec4;
+}
+
+.bg-situacao-chamado {
+    padding: 0.2rem;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.text-dados-chamado {
+    font-weight: 700;
+}
+
+.spn-dados-chamado {
+    font-weight: 500;
+}
+
+.text-dados {
+    font-weight: bold;
+}
+
+@media (max-width:1024px){
+    .img-logo{
+        margin-left: 24%;
+    }
+    .ml-upload{
+        margin-left: 3rem !important;
+    }
+}
+
+@media (max-width:768px){
+    .ml-upload{
+        margin-left: 11rem !important;
+    }
+    .mt-sm {
+        margin-top: 1rem;
+    }
+    .text-dados-chamado {
+        font-size: 12px;
+    }
+    .bg-situacao-chamado{
+        padding: 0rem;
+        font-size: 8px;
+    }
+    .bg-situacao-chamado-edit{
+        padding: 0.4em;
+    }
+}
+
+@media (max-width:414px){
+    .img-logo{
+        margin-left: 24%;
+    }
+    .ml-upload{
+        margin-left: 3rem !important;
+    }
+}
+
+@media (max-width:360px){
+    .img-logo{
+        margin-left: 17%;
+    }
+    .ml-upload{
+        margin-left: 1.2rem !important;
+    }
+}
+
+@media (max-width:375px){
+    .img-logo{
+        margin-left: 20%;
+    }
+    .ml-upload{
+        margin-left: 2rem !important;
+    }
+}
+
+@media (max-width:320px){
+    .img-logo{
+        margin-left: 13.66667%;
+    }
+    .ml-upload{
+        margin-left: 0rem !important;
+    }
+}
